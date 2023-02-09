@@ -1,3 +1,13 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .weather-app {
-  max-width: 500px;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background-color: #1f8a70;
+  color: #bfdb38;
 }
