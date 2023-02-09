@@ -3,7 +3,7 @@
 }
 
 .weather-app {
-  max-width: 550px;
+  max-width: 545px;
   margin: 30px auto;
   padding: 20px;
   border: 1px solid #dadde1;
@@ -17,7 +17,6 @@
   color: #ffd4d4;
   font-weight: 100;
   line-height: 25px;
-  height: 30px;
   font-weight: bolder;
   margin-bottom: 0;
 }
@@ -35,10 +34,10 @@ li {
   line-height: 20px;
 }
 
-.perc.humidity.wind {
-  text-align: left;
+.weatherinfo {
+  padding-left: 100px;
 }
-
 small {
-  height: 10px;
+  height: 20px;
+  padding-top: 10px;
 }
