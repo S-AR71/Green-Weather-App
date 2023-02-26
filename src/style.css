@@ -11,13 +11,13 @@
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
-  background-color: #ffffe8;
-  color: #aacb73;
+  background-color: #f16767;
+  color: #fdd36a;
 }
 
 .city {
   font-size: 25px;
-  color: #ffd4d4;
+  color: #f5eaea;
   font-weight: 100;
   line-height: 25px;
   font-weight: bolder;
@@ -35,7 +35,7 @@
 }
 
 .temperature {
-  color: #ffd4d4;
+  color: #f5eaea;
   font-weight: bold;
   line-height: 1;
   font-size: 55px;
@@ -43,14 +43,26 @@
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   top: 20px;
 }
 
 .weather-temperature .farenheit {
   text-decoration: none;
-  color: #aacb73;
+  color: #fdd36a;
   font-weight: bolder;
+}
+
+.btn {
+  background-color: #f5eaea;
+  color: #f16767;
+  border-color: #f5eaea;
+}
+
+.btn:hover {
+  color: #f5eaea;
+  background-color: #a459d1;
+  border-color: #a459d1;
 }
 
 ul {
