@@ -44,7 +44,7 @@
 .weather-temperature .units {
   position: relative;
   font-size: 14px;
-  top: 20px;
+  top: -28px;
 }
 
 .weather-temperature .farenheit {
