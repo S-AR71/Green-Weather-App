@@ -47,10 +47,28 @@
   top: -28px;
 }
 
-.weather-temperature .farenheit {
+.weather-temperature .active {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #fdd36a;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
   text-decoration: none;
   color: #fdd36a;
+}
+
+.weather-temperature .inactive {
+  text-decoration: none;
   font-weight: bolder;
+  color: #f5eaea;
+  cursor: default;
+}
+
+.weather-temperature .inactive:hover {
+  text-decoration: none;
+  color: #f5eaea;
 }
 
 .btn {
