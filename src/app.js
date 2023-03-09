@@ -52,6 +52,13 @@ function displayForecast() {
   console.log(forecastHTML);
 }
 
+function getForecast(coordinates) {
+  console.log(coordinates);
+  let apiKey = "3a60oc81taf3cb21592f1703fcb844bb";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lat=${coordinates.lat}&lon=${coordinates.lon}&key=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
@@ -129,4 +136,3 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Berlin");
-displayForecast();
