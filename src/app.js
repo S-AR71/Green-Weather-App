@@ -22,6 +22,34 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+    <div class="col-2">
+      ${day}
+      <img
+        src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+        alt=""
+        width="75"
+      />
+      <div class="weather-forecast-temperatur">
+        <span class="weather-forecast-temperatur-max"> 18° </span>
+        <span class="weather-forecast-temperatur-min"> 12° </span>
+      </div>
+    </div>
+`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
