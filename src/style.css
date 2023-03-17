@@ -119,3 +119,16 @@ li {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #f16767;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background-color: #fdd36a;
+}
+
+.weather-forecast-temperatur-min {
+  opacity: 0.7;
+}
