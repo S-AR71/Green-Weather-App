@@ -11,8 +11,8 @@
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
-  background-color: #f16767;
-  color: #fdd36a;
+  background-color: #94af9f;
+  color: #dbe4c6;
 }
 
 .city {
@@ -50,13 +50,13 @@
 .weather-temperature .active {
   text-decoration: none;
   font-weight: bolder;
-  color: #fdd36a;
+  color: #dbe4c6;
   cursor: default;
 }
 
 .weather-temperature .active:hover {
   text-decoration: none;
-  color: #fdd36a;
+  color: #dbe4c6;
 }
 
 .weather-temperature .inactive {
@@ -73,14 +73,14 @@
 
 .btn {
   background-color: #f5eaea;
-  color: #f16767;
+  color: #94af9f;
   border-color: #f5eaea;
 }
 
 .btn:hover {
   color: #f5eaea;
-  background-color: #a459d1;
-  border-color: #a459d1;
+  background-color: #bbd6b8;
+  border-color: #bbd6b8;
 }
 
 ul {
@@ -123,10 +123,11 @@ li {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #f16767;
+  color: #94af9f;
   border: 1px solid #dadde1;
   border-radius: 10px;
-  background-color: #fdd36a;
+  background-color: #dbe4c6;
+  opacity: 2;
 }
 
 .weather-forecast-temperatur-min {
